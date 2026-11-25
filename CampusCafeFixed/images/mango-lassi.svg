@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="120" height="120" role="img" aria-label="mango-lassi">
+  <circle cx="60" cy="60" r="56" fill="#fff0cc"/>
+  <path d="M40 32 h40 l-5 58 a6 6 0 0 1 -6 5 h-18 a6 6 0 0 1 -6 -5z" fill="#fff" fill-opacity="0.85" stroke="#4a6b7a" stroke-width="3"/>
+  <path d="M43 52 h34 l-3.5 38 h-27z" fill="#f6a623"/>
+  <path d="M43 52 q8 -6 17 0 t17 0 v4 h-34z" fill="#fff" fill-opacity="0.9"/>
+  <ellipse cx="60" cy="30" rx="9" ry="6" fill="#f6a623" stroke="#d9861a" stroke-width="2" transform="rotate(-20 60 30)"/>
+</svg>

@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="120" height="120" role="img" aria-label="lemon-iced-tea">
+  <circle cx="60" cy="60" r="56" fill="#fdf3cf"/>
+  <path d="M40 32 h40 l-5 58 a6 6 0 0 1 -6 5 h-18 a6 6 0 0 1 -6 -5z" fill="#fff" fill-opacity="0.85" stroke="#4a6b7a" stroke-width="3"/>
+  <path d="M43 52 h34 l-3.5 38 h-27z" fill="#e9b44c"/>
+  <circle cx="82" cy="40" r="12" fill="#f7e463" stroke="#d4b72a" stroke-width="2"/>
+  <path d="M82 28 v24 M70 40 h24 M73.5 31.5 l17 17 M90.5 31.5 l-17 17" stroke="#d4b72a" stroke-width="1.5"/>
+  <circle cx="52" cy="64" r="4" fill="#fff" fill-opacity="0.7"/>
+</svg>

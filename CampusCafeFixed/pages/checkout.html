@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Checkout — CampusCafe</title>
+  <!-- This page lives in /pages, so every shared resource needs "../" -->
+  <link rel="stylesheet" href="../css/main.css" />
+  <link rel="stylesheet" href="../css/theme.css" />
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand">
+      <h1>CampusCafe</h1>
+      <p>Checkout</p>
+    </div>
+  </header>
+
+  <main class="container single">
+    <section id="checkout-view">
+      <a class="back-link" href="../index.html">&larr; Back to menu</a>
+
+      <div class="panel">
+        <h2>Order Summary</h2>
+        <ul id="order-list" class="cart-list"></ul>
+
+        <div class="summary-row">
+          <span>Subtotal</span>
+          <span>₹<span id="co-subtotal">0</span></span>
+        </div>
+        <div class="summary-row summary-discount hidden" id="discount-row">
+          <span>Student Discount (15%)</span>
+          <span>&minus;₹<span id="co-discount">0</span></span>
+        </div>
+        <div class="summary-row summary-total">
+          <span>Grand Total</span>
+          <span>₹<span id="grand-total">0</span></span>
+        </div>
+      </div>
+
+      <div class="panel">
+        <h2>Promo Code</h2>
+        <div class="promo-row">
+          <input type="text" id="promo-input" placeholder="Enter promo code (e.g. STUDENT15)" autocomplete="off" />
+          <button type="button" id="apply-promo-btn" class="btn btn-secondary">Apply</button>
+        </div>
+        <p id="promo-msg" class="msg-error" role="alert"></p>
+      </div>
+
+      <form id="checkout-form" class="panel" novalidate>
+        <h2>Your Details</h2>
+        <div class="form-row">
+          <label for="full-name">Full Name</label>
+          <input type="text" id="full-name" placeholder="e.g. Ravi Kumar" autocomplete="name" />
+        </div>
+        <div class="form-row">
+          <label for="roll-number">Roll Number</label>
+          <input type="text" id="roll-number" placeholder="e.g. 21CS1045" autocomplete="off" />
+        </div>
+        <button type="submit" class="btn btn-primary" style="width:100%">Confirm Order</button>
+        <p id="form-msg" class="msg-error" role="alert"></p>
+      </form>
+    </section>
+
+    <section id="confirmation-view" class="panel confirmation hidden">
+      <h2>&#10003; Order Confirmed!</h2>
+      <p id="confirmation-text"></p>
+      <p>Your Order ID: <span id="order-id" class="order-id"></span></p>
+      <a class="btn btn-primary" href="../index.html" style="display:inline-block;text-decoration:none;margin-top:0.5rem">Back to Menu</a>
+    </section>
+  </main>
+
+  <!-- Load order: shared data/helpers first, then page logic -->
+  <script src="../js/menuData.js"></script>
+  <script src="../js/checkout.js"></script>
+</body>
+</html>

@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="120" height="120" role="img" aria-label="veg-sandwich">
+  <circle cx="60" cy="60" r="56" fill="#e9f4e1"/>
+  <path d="M22 60 L60 32 L98 60 L98 66 L22 66z" fill="#e9c58f" stroke="#a8782f" stroke-width="3" stroke-linejoin="round"/>
+  <path d="M22 66 h76 v4 q-10 6 -19 0 t-19 0 t-19 0 t-19 0z" fill="#6bb04a"/>
+  <rect x="24" y="70" width="72" height="5" fill="#e35a4a"/>
+  <rect x="24" y="75" width="72" height="4" fill="#f5e6a8"/>
+  <path d="M22 79 h76 L98 86 L60 90 L22 86z" fill="#e9c58f" stroke="#a8782f" stroke-width="3" stroke-linejoin="round"/>
+</svg>

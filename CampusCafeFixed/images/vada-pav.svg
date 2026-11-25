@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="120" height="120" role="img" aria-label="vada-pav">
+  <circle cx="60" cy="60" r="56" fill="#fbe9d2"/>
+  <path d="M22 62 q0 -26 38 -26 t38 26 v6 h-76z" fill="#e3b36b" stroke="#a8782f" stroke-width="3"/>
+  <circle cx="60" cy="68" r="17" fill="#d99a3a" stroke="#a8782f" stroke-width="3"/>
+  <path d="M22 72 h76 v6 q0 12 -38 12 t-38 -12z" fill="#e3b36b" stroke="#a8782f" stroke-width="3"/>
+  <circle cx="55" cy="64" r="2" fill="#a8782f"/><circle cx="65" cy="72" r="2" fill="#a8782f"/>
+  <path d="M82 48 q6 -2 8 4" fill="none" stroke="#6bb04a" stroke-width="4" stroke-linecap="round"/>
+</svg>

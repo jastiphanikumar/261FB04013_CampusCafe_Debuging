@@ -1,0 +1,48 @@
+/* CampusCafe — colours & decoration.
+   NOTE: url() paths inside a CSS file resolve relative to the CSS file,
+   so from css/theme.css the images folder is ../images/ */
+:root {
+  --brand:        #6f4e37;
+  --brand-dark:   #4a3324;
+  --accent:       #e8a33d;
+  --bg:           #faf5ef;
+  --card-bg:      #ffffff;
+  --border:       #e6d9c8;
+  --text:         #2d2118;
+}
+
+body {
+  background-color: var(--bg);
+  background-image: url("../images/pattern.svg");
+  color: var(--text);
+}
+
+.topbar { background: var(--brand); color: #fff; box-shadow: 0 2px 8px rgba(0,0,0,0.15); }
+.cart-pill { background: var(--accent); color: var(--brand-dark); }
+
+.filter-btn { background: #fff; color: var(--brand); border: 1.5px solid var(--brand); }
+.filter-btn:hover { background: #f3e8da; }
+.filter-btn.active { background: var(--brand); color: #fff; }
+
+.search-input, .form-row input { border: 1.5px solid var(--border); background: #fff; color: var(--text); }
+.search-input:focus, .form-row input:focus { outline: 2px solid var(--accent); border-color: var(--accent); }
+
+.menu-card, .cart-panel, .panel {
+  background: var(--card-bg);
+  border: 1px solid var(--border);
+  box-shadow: 0 2px 6px rgba(74, 51, 36, 0.08);
+}
+.menu-card:hover { transform: translateY(-2px); transition: transform 0.15s; }
+.menu-card .price { color: var(--brand); }
+
+.btn-primary { background: var(--brand); color: #fff; }
+.btn-primary:hover:not(:disabled) { background: var(--brand-dark); }
+.btn-secondary { background: var(--accent); color: var(--brand-dark); }
+.btn-secondary:hover:not(:disabled) { filter: brightness(0.95); }
+
+.qty-btn { background: #fff; border: 1.5px solid var(--brand); color: var(--brand); }
+.qty-btn:hover { background: var(--brand); color: #fff; }
+
+.cart-item { border-bottom: 1px dashed var(--border); }
+.summary-total { border-top: 2px solid var(--border); margin-top: 0.4rem; padding-top: 0.6rem; }
+.back-link { color: var(--brand); }
